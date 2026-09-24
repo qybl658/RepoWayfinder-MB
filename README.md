@@ -1,5 +1,7 @@
 # RepoWayfinder MB
 
+Windows 上的 Python / PowerShell 版本见 [RepoWayfinder](https://github.com/qybl658/RepoWayfinder)。
+
 把一个陌生仓库，从“下载后不知道怎么运行”推进到有依据、可复查的运行结果。
 
 RepoWayfinder MB 是使用 MoonBit 编写的部署助手。它读取仓库里的启动配置，准备项目依赖、运行启动命令、检查本地服务，并记录每一步的结果。多个入口会保留供选择；缺少环境、项目失败和服务已验证是不同状态，不会混为“成功”。
